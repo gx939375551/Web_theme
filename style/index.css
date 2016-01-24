@@ -1,0 +1,294 @@
+.clear {
+    clear: both;
+}
+
+.row-style-2 {
+    margin-top: 30px;
+}
+
+.col-style-1 {
+    height: 80px;
+
+}
+
+.col-style-2 {
+    height: 80px;
+
+}
+.normal {
+    height: 80px;
+}
+
+.normal input {
+    margin-top: 10px;
+    margin-left: -15px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: #10cf66;
+    color: #ffffff;
+}
+
+.img-2 {
+    width: 124px;
+    height: 60px;
+    display: block;
+}
+
+.input-group {
+    margin-top: 10px;
+    width: 650px;
+    border: 1px solid #acacac;
+}
+
+.form-control {
+    border-radius: 0;
+    height: 40px;
+    width: 300px;
+}
+
+.btn-default {
+    border-radius: 0;
+    height: 40px;
+    width: 120px;
+    background-color: #eeeeee;
+    font-size: 16px;
+}
+
+.text-1 {
+    margin-top: 5px;
+    color: #10cf66;
+}
+
+.text-2 {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.text-2-a {
+    color: #000000;
+}
+
+.text-3 {
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.text-3-a {
+    color: #10cf66;
+}
+
+
+/*设置导航懒得整体位置*/
+
+.row-style-1 {
+    margin-left: -15px;
+    margin-top: 30px;
+}
+
+
+/*设置首页按钮的大小和样式*/
+
+.nav-1 {
+    width: 65px;
+    background-color: #11aa56;
+    line-height: 40px;
+    font-size: 15px;
+    height: 40px;
+}
+
+
+/*设置首页按钮的字体颜色等样式*/
+
+.nav-1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*设置除首页外按钮的样式和位置*/
+
+.nav-2 {
+    width: 98px;
+    background-color: #10cf66;
+    line-height: 40px;
+    font-size: 15px;
+    height: 40px;
+}
+
+
+/*设置除首页外按钮的字体颜色等*/
+
+.nav-2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-3 {
+    width: 100px;
+    background-color: #eeeeee;
+    height: 40px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+/*定义蓝色按钮*/
+.blue-btn {
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-color: #119bf3;
+    margin-left: -5px;
+}
+/*定义红色按钮*/
+.red-btn {
+    width: 22px;
+    height: 22px;
+    background-color: #f92020;
+    border: none;
+    margin-left: 7px;
+}
+/*定义橘色按钮*/
+.orange-btn {
+    width: 22px;
+    height: 22px;
+    background-color: #f76224;
+    border: none;
+    margin-right: -5px;
+}
+
+
+/*设置除首页外的按钮的样式*/
+
+.nav-2:hover {
+    background-color: #11aa56;
+}
+
+
+/*设置中心内容的样式*/
+
+.row-style-3 {
+    margin-top: 10px;
+}
+
+.col-style-3 {
+    height: 400px;
+}
+
+.col-style-4 {
+    border: 1px solid #11aa56;
+    height: 322px;
+    width: 845px;
+    margin-left: 17px;
+}
+
+
+/*设置左侧栏的广告图片*/
+
+.img-3 {
+    width: 293px;
+    position: relative;
+    right: 15px;
+}
+
+.col-style-5 {
+    background-color: #f3f3f3;
+    height: 30px;
+    margin-top: 10px;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+.text-4 {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #11aa56;
+}
+
+.text-5 {
+    margin-top: 5px;
+    margin-left: 40px;
+    color: #000000;
+}
+
+.text-6 {
+    margin-top: 5px;
+    margin-left: 60px;
+    color: #000000;
+}
+
+.col-style-6 {
+    height: 210px;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+.text-7 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-8 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.text-9 {
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+
+/*设置中西内容的右侧！*/
+
+.col-style-7 {
+    height: 120px;
+    border-bottom: 1px solid #dedede;
+}
+
+.text-10 {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.text-10-1 {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.text-10-3 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.text-10-4 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.text-10-5 {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.text-10-6 {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.col-style-8 {
+    height: 190px;
+}
+
+.text-11-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/*设置特殊字的颜色随主题变化而变化*/
+
+span {
+    color: #10cf66;
+}

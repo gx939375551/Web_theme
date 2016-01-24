@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>hao123</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <!--全局清除-->
+    <div class="clear"></div>
+    <div class="container">
+        <!--头部的HTML文档-->
+        <div class="row row-style-2">
+            <!--网站logo-->
+            <div class="col-md-3 col-style-1">
+                <a href="#"><img class="img-2 pull-right" src="indexImg/bdlogo.png"></a>
+            </div>
+            <!--网站搜索框和按钮-->
+            <div class="col-md-8 col-style-2">
+                <div class="input-group">
+                    <input type="text" class="form-control input-style">
+                    <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><strong>百度一下</strong></button>
+                    </span>
+                </div>
+                <p class="pull-left text-1 ">热搜:</p>
+                <a class="text-2-a" href="#">
+                    <p class="pull-left text-2">北京天气</p>
+                </a>
+                <a class="text-2-a" href="#">
+                    <p class="pull-left text-2">好声音</p>
+                </a>
+                <a class="text-2-a" href="#">
+                    <p class="pull-left text-2">花千骨结局</p>
+                    <a class="text-2-a" href="#">
+                        <p class="pull-left text-2">旋风少女</p>
+                    </a>
+                    <a class="text-2-a" href="#">
+                        <p class="pull-left text-2">克拉恋人</p>
+                    </a>
+                    <a class="text-2-a" href="#">
+                        <p class="pull-left text-2">爸爸去哪</p>
+                    </a>
+                    <a class="text-3-a" href="#">
+                        <p class="text-3 pull-left">更多</p>
+                    </a>
+            </div>
+            	<div class="col-md-1 normal">
+                 <input type="button" value="默认主题" onclick="setSkin('index')" />   
+                </div>
+        </div>
+        <!--导航栏的HTML文档-->
+        <div class="row center-block row-style-1 ">
+            <div class=" text-center col-md-1 nav-1">
+                <a href="#">首页</a>
+            </div>
+            <div class="col-md-1 nav-2 text-center">
+                <a href="#">电视剧</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">最新电影</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">新闻头条</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">军事热点</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">八卦娱乐</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">热门游戏</a>
+            </div>
+            <div class="col-md-1 nav-2 text-center">
+                <a href="#">小游戏</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">今日特价</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">特价旅游</a>
+            </div>
+            <div class="col-md-1 nav-2">
+                <a href="#">最新小说</a>
+            </div>
+            <div class="col-md-1 nav-3">
+                <button class="blue-btn pull-left" onclick="setSkin('blue')" ></button>
+                <button class="red-btn pull-left" onclick="setSkin('red')" ></button>
+                <button class="orange-btn pull-right" onclick="setSkin('orange')" ></button>
+            </div>
+        </div>
+        <!--页面的中心内容区域-->
+        <div class="row row-style-3">
+            <div class="col-md-3 col-style-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="img-3" src="indexImg/hao123.jpg" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-style-5">
+                        <a class=" text-4 pull-left" href="#">明星频道</a>
+                        <a class="text-5 pull-left" href="#">生活服务</a>
+                        <a class="text-6 pull-left" href="#">更多</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-style-6">
+                        <p class="pull-left text-7">电视剧 | 综艺</p>
+                        <p class="pull-left text-8">游戏 | 小游戏</p>
+                        <p class="pull-left text-7">电影 | 直播</p>
+                        <p class="pull-left text-9">动漫 | 漫画</p>
+                        <p class="pull-left text-7">头条 | 军事</p>
+                        <p class="pull-left text-9">旅游 | 音乐</p>
+                        <p class="pull-left text-7">彩票 | 股票</p>
+                        <p class="pull-left text-9">搞笑 | 小说</p>
+                        <p class="pull-left text-7">特价 | 生活</p>
+                        <p class="pull-left text-9">教育 | 天气</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-style-4">
+            <!--左侧栏第一块-->
+                <div class="row">
+                    <div class="col-md-12 col-style-7">
+                        <p class="pull-left text-10">百度 · 贴吧</p>
+                        <p class="pull-left text-10">新浪 · 微博</p>
+                        <p class="pull-left text-10">搜狐 · 热点</p>
+                        <p class="pull-left text-10">腾讯 · 空间</p>
+                        <p class="pull-left text-10">网 易</p>
+                        <p class="pull-left text-10-5">爱奇艺高清</p>
+                        <p class="pull-left text-10">天猫 · 优惠</p>
+                        <p class="pull-left text-10">凤 凰 网</p>
+                        <p class="pull-left text-10-1">淘 宝 网</p>
+                        <p class="pull-left text-10-1">免费游戏</p>
+                        <p class="pull-left text-10">4399小游戏</p>
+                        <p class="pull-left text-10-3">新华 · 人民</p>
+                        <p class="pull-left text-10">京东商城</p>
+                        <p class="pull-left text-10-5">聚 划 算</p>
+                        <p class="pull-left text-10-1">今日特价</p>
+                        <p class="pull-left text-10-5">影视 · 爸爸3</p>
+                        <p class="pull-left text-10-4">汽车之家</p>
+                        <p class="pull-left text-10-6">去 哪 儿</p>
+                    </div>
+                </div>
+                <!--左侧栏第二块-->
+                <div class="row">
+                    <div class="col-md-12 col-style-8">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p class="text-10-3">东方理财</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">58 同城</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">搜 房 网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">携程旅行网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">PPTV聚力</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-11-1">机票 · 12306</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p class="text-10-3">聚美优品</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">赶 集 网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">易 车 网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">萌主页 </p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">爱卡汽车</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-11-1">美 拍</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p class="text-10-3">唯 品 会</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">同程旅游</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">途牛旅游网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">百度浏览器</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">太平洋汽车</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-11-1">艺 龙 网</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p class="text-10-3">百度糯米</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">蘑 菇 街</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">37 游 戏</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">驴妈妈旅游</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3">百 姓 网</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-11-1">大智慧炒股</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p class="text-10-3">苏宁易购</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3"><span>国美在线</span></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3"><span>世纪佳缘</span></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3"><span>彩票开奖</span></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-10-3"><span>爱 淘 宝</span></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-11-1"><span>飞牛网商城</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
